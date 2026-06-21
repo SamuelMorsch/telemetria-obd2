@@ -1,11 +1,11 @@
-# 🚗 Sistema de Telemetria Automotiva Remota
+# Sistema de Telemetria Automotiva Remota
 
 ![Status](https://img.shields.io/badge/Status-Em%20Desenvolvimento-orange)
 ![Flutter](https://img.shields.io/badge/Mobile-Flutter-blue)
 ![Node.js](https://img.shields.io/badge/Backend-Node.js-green)
 ![React](https://img.shields.io/badge/Frontend-React/Next.js-blueviolet)
 
-## 📖 Visão Geral
+## Visão Geral
 Este repositório documenta a proposta e a arquitetura do **Sistema de Telemetria Automotiva Remota**, um projeto de Engenharia de Software focado no diagnóstico de falhas elétricas intermitentes em veículos automotores. 
 
 O projeto visa solucionar o gargalo de diagnósticos estáticos em oficinas mecânicas, permitindo que especialistas monitorem as quedas de voltagem do alternador e da bateria em tempo real, enquanto o veículo está em circulação normal nas vias.
