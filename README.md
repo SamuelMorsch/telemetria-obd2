@@ -10,14 +10,14 @@ Este repositório documenta a proposta e a arquitetura do **Sistema de Telemetri
 
 O projeto visa solucionar o gargalo de diagnósticos estáticos em oficinas mecânicas, permitindo que especialistas monitorem as quedas de voltagem do alternador e da bateria em tempo real, enquanto o veículo está em circulação normal nas vias.
 
-## 🎯 Problema e Necessidade de Mercado
+## Problema e Necessidade de Mercado
 * **O Problema:** Falhas intermitentes raramente se manifestam com o carro parado na oficina, resultando em diagnósticos inconclusivos e testes de bancada frustrantes.
 * **A Necessidade:** O mercado carece de uma ferramenta focada no profissional técnico (mecânico/autoelétrica) que permita visualizar o micro-comportamento elétrico do motor à distância, preenchendo a lacuna deixada por aplicativos de autoatendimento para motoristas leigos e plataformas corporativas de gestão logística.
 
-## 💡 Inovação
+## Inovação
 A inovação central do projeto reside na transição do foco comercial B2C para o modelo de ferramenta "oficina-veículo". Atuando como um "multímetro virtual remoto", a solução terceiriza a conectividade de rede para o smartphone do próprio condutor (reduzindo custos de hardware) e transmite as séries temporais diretamente para o laboratório de análise da oficina.
 
-## 🏗️ Arquitetura e Tecnologias
+## Arquitetura e Tecnologias
 O ecossistema é baseado em um modelo cliente-servidor descentralizado, operando em três frentes principais:
 
 1. **Camada de Borda (Mobile Gateway) - `Flutter`**
@@ -34,7 +34,7 @@ O ecossistema é baseado em um modelo cliente-servidor descentralizado, operando
    * Dashboard exclusivo para a oficina mecânica.
    * Renderização de gráficos dinâmicos de linhas que reagem em tempo real às atualizações da API.
 
-## 🚀 Próximos Passos (Cronograma)
+## Próximos Passos (Cronograma)
 - [ ] Implementação da conexão BLE nativa.
 - [ ] Estruturação dos *endpoints* da API Node.js para recebimento de JSON.
 - [ ] Implementação de rotinas de armazenamento local (*offline-first*) para áreas de sombra de cobertura celular.
